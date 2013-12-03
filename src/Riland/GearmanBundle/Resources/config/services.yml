@@ -1,0 +1,5 @@
+services:
+    riland.gearman:
+        class: Riland\GearmanBundle\Gearman\GearmanService
+        arguments: [@doctrine.orm.gearman_entity_manager, @gearman]
+

@@ -1,0 +1,19 @@
+{
+    "name": "riland/gearman-bundle",
+    "description": "Riland gearman bundle",
+    "require": {
+		"php": ">=5.3.3",
+        "symfony/symfony": "2.3.*",
+		"mmoreram/gearman-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Riland": "src/" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riland",
+            "email": "hello@riland.ru"
+        }
+    ]
+}
